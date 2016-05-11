@@ -182,6 +182,11 @@
 	background: #41713b;
 }
 
+#block-footermiddle
+{
+	position: relative;
+}
+
 
 #footer-middle .large-6 span
 {

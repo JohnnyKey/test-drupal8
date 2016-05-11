@@ -57,7 +57,7 @@
 /*----------------------header----------------------*/
 #block-sub-theme-breadcrumbs
 {
-	margin: 10px 0px 80px;
+	margin: 10px 10px 80px;
 }
 
 /*----------------------end header----------------------*/
