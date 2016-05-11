@@ -1,0 +1,266 @@
+/*----------------------menu----------------------*/
+.logo
+{
+    padding: .4rem .4rem .1rem .0rem;
+    float: left;
+}
+
+.title-bar 
+{
+    background: #41713b;
+}
+
+.title-bar  .menu-icon
+{
+	float: left;
+	margin-top: 27px;
+	width: 30px;
+	height: 30px;
+}
+
+.menu-icon::after 
+{
+	height: 3px;
+}
+
+.menu.medium-horizontal > li {
+    display: inline-block;
+}
+
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+
+#header-menu
+{
+    background: #41713b; 
+}
+
+#header-menu .menu a
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+#main-menu
+{
+    padding-top: 1rem;
+}
+
+.login
+{
+    padding-top: 0.5rem;
+}
+
+/*----------------------end menu----------------------*/
+
+/*----------------------header----------------------*/
+#block-sub-theme-breadcrumbs
+{
+	margin: 10px 10px 80px;
+}
+
+/*----------------------end header----------------------*/
+
+
+/*----------------------views help-center----------------------*/
+#block-views-block-most-frequently-asked-questions-block-1 div a
+{
+	color:#5c5c5c;
+        font-size: 1.5rem;
+}
+
+#block-views-block-most-frequently-asked-questions-block-1 > div > div >div .views-row
+{
+	border-top: 1px solid #e0e0e0;
+	padding: 36px;
+}
+
+#block-views-block-most-frequently-asked-questions-block-1 > div > div >div .views-row:last-child
+{
+	border-bottom: 1px solid #e0e0e0;
+}
+/*----------------------end views help-center----------------------*/
+
+/*----------------------sidebar-first----------------------*/
+#sidebar-first
+{
+	border: 1px solid #e0e0e0;
+	background: #f2f2f2;
+	padding-top: 10px;
+}
+
+#sidebar-first li a
+{
+	color: #424242;
+	font-size: 26px;
+}
+
+
+#sidebar-first ul
+{
+    list-style: outside none none;
+}
+
+#sidebar-first ul li
+{
+	padding-bottom: 20px;
+}
+
+
+/*----------------------end sidebar-first----------------------*/
+
+/*----------------------main----------------------*/
+#main
+{
+	padding-left: 80px;
+}
+
+
+/*----------------------end main----------------------*/
+
+/*----------------------footer top----------------------*/
+
+#block-footeranswers
+{
+	border: 1px solid #e0e0e0;
+	margin: 70px 0;
+}
+
+#block-footeranswers .field-item > .row
+{
+	margin:0;
+}
+
+#block-footeranswers .field-item .large-6 span
+{
+	display:block;
+	font-size: 22px;
+}
+
+#block-footeranswers .field-item .large-6 span:first-child
+{
+	color:#51824c;
+	font-size: 36px;
+}
+
+#block-footeranswers .field-item .large-6
+{
+	margin: 22px 0;
+	padding: 0 31px;
+}
+
+#block-footeranswers .field-item .large-6:first-child
+{
+	border-right: 1px solid #e0e0e0;
+}
+
+#block-footeranswers .field-item .large-6 span
+{
+	margin-bottom: 14px;
+}
+
+
+#block-footeranswers .field-item .large-6 .button
+{
+	margin-top: 12px;
+	background: transparent none repeat scroll 0% 0%;
+	color: rgb(33, 153, 232);
+	border: 1px solid;
+	padding: 1em 2.5em;
+
+}
+
+
+
+
+/*----------------------end footer top----------------------*/
+
+/*----------------------footer middle----------------------*/
+#footer-middle
+{
+	background: #41713b;
+}
+
+
+#footer-middle .large-6 span
+{
+	color: rgb(255, 255, 255);
+	font-size: 42px;
+	padding: 4.2rem 1rem;
+	display: block;
+}
+
+#footer-middle .large-6 img
+{
+	bottom: 0px;
+	position: absolute;
+	padding-left: 11rem;
+}
+
+/*----------------------end footer middle----------------------*/
+
+/*----------------------footer last----------------------*/
+
+#footer-last
+{
+	background: #f2f2f2;
+}
+
+#footer-last ul
+{
+	list-style:none;
+	padding-top: 12px;
+}
+
+#footer-last ul li
+{
+	display: inline-block;
+	padding-right:18px;
+}
+
+#footer-last ul li a
+{
+	color:#606060;
+}
+
+#block-sub-theme-footer
+{
+	float:right;
+
+}
+
+
+
+
+/*----------------------end footer last----------------------*/
+
+
+@media screen and  (max-width: 1023px)
+{
+	#main
+	{
+		padding-left: .9375rem;
+	}
+
+	#footer-middle .large-6 img 
+	{
+    		position: relative;
+	}
+}
+
+@media screen and  (max-width: 640px)
+{
+	#header-menu .logo
+	{
+		display:none;
+	}
+
+	#block-views-block-most-frequently-asked-questions-block-1 div a 
+	{
+    		color: #5c5c5c;
+    		font-size: 1rem;
+	}
+}
+
+

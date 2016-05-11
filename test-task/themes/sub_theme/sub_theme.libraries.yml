@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/sub_theme.css: {}
+  js:
+    js/sub_theme.js: {}
